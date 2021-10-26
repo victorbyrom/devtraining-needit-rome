@@ -25,9 +25,9 @@ var numbers = new Array();
 
 while (inactiveIncidents.next()) {
     var obj = {
-        number: inactiveIncidents.getValue('number'),
-        caller_id: inactiveIncidents.getValue('caller_id'),
-        location: inactiveIncidents.getValue('location')
+        number: inactiveIncidents.getDisplayValue('number'),
+        caller_id: inactiveIncidents.getDisplayValue('caller_id'),
+        location: inactiveIncidents.getDisplayValue('location')
     };
     numbers.push(obj);
 }
@@ -56,14 +56,14 @@ gs.info("Here's a list: " + numbers);]]></script>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-10-26 19:24:38</sys_created_on>
         <sys_id>0ffbcf331b1730107ae396c6b04bcb02</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>isIncidentEvenorOdd</sys_name>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sys_script_fix_0ffbcf331b1730107ae396c6b04bcb02</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-10-26 19:50:12</sys_updated_on>
+        <sys_updated_on>2021-10-26 19:57:28</sys_updated_on>
         <unloadable>false</unloadable>
     </sys_script_fix>
 </record_update>
